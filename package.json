@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "eslint **/*.main.js",
+    "lint:css": "stylelint **/*.{css,scss}",
+    "lint:html": "hint ./*.html && hint ./**/*.html",
+    "lintFix:js": "eslint **/*.main.js--fix",
+    "lintFix:css": "stylelint **/*.{css,scss} --fix",
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.3",
+    "stylelint": "^14.5.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
