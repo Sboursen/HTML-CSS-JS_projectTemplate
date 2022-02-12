@@ -18,8 +18,8 @@ Put a short concise description for your work here.
 
 ### Milestone requirements
 
-- [ ] task 1
-- [ ] task 2
+- [x] task 1
+- [x] task 2
 
 ### Additional notes
 
